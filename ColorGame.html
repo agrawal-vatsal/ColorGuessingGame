@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="ColorGame.css">
+</head>
+<body>
+	<div class="blue-background">
+		<div class="title-bar">
+			<h3>The great</h3>
+			<h1>RGB(<span id="r"></span>, <span id="g"></span>, <span id="b"></span>)</h1>
+			<h3>Guessing game</h3>
+		</div>
+	</div>
+	<div class="bg-white">
+		<table class="width100">
+			<tr>
+				<td class="width15 left" id="reset">New Colors?</td>
+				<td class="width15 center" id="message"></td>
+				<td class="width15 right"><span id="easy">Easy</span> &nbsp <span id="hard" class="selected">Hard</span></td>
+			</tr>
+		</table>
+	</div>
+	<div class="container" id="parent">
+		<div class="square" id="a1"></div>
+		<div class="square" id="a2"></div>
+		<div class="square" id="a3"></div>	
+		<div class="square" id="a4"></div>
+		<div class="square" id="a5"></div>
+		<div class="square" id="a6"></div>
+	</div>
+</body>
+<script type="text/javascript" src="ColorGame.js"></script>
+</html>
