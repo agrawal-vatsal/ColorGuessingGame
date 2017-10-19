@@ -30,11 +30,10 @@ h1, h3 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 30%;
-	text-align: center;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
-.width100 {
+.width36 {
 	color: #3a67af;
 	width: 36%;
 	padding: 0;
@@ -43,8 +42,10 @@ h1, h3 {
 .bg-white {
 	background-color: white;
 }
-
-.width15 {
+#message {
+	text-transform: capitalize;
+}
+.width12 {
 	width: 12%;
 }
 
@@ -57,7 +58,7 @@ h1, h3 {
 .right {
 	text-align: right;
 }
-.container {
+#parent {
 	margin: 0 auto;
 	margin-top: 20px;
 	max-width: 500px;
